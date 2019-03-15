@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-
+// From https://gist.github.com/charlierm/5691020
 
 class Node
 {
