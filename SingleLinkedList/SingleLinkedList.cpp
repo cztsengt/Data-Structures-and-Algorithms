@@ -65,6 +65,7 @@ int main(int argc, char const *argv[])
     list->print();
     std::cout << "List Length: " << list->length << std::endl;
 	delete list;
-	std::cin >> test; 
+	cout << "Does this work?!!?"; 
+	std::cin >> test;
     return 0;
 }
