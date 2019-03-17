@@ -2,6 +2,8 @@
 #include <cstdlib>
 // From https://gist.github.com/charlierm/5691020
 
+using namespace std; 
+
 class Node
 {
 public:
@@ -52,6 +54,8 @@ void LinkedList::print(){
 
 int main(int argc, char const *argv[])
 {
+	return 0; 
+	/*
     LinkedList* list = new LinkedList();
     for (int i = 0; i < 100; ++i)
     {
@@ -61,4 +65,5 @@ int main(int argc, char const *argv[])
     std::cout << "List Length: " << list->length << std::endl;
     delete list;
     return 0;
+	*/
 }
