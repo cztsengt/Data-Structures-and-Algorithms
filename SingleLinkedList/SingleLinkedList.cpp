@@ -1,5 +1,7 @@
 #include <iostream>
+#include <stdio.h>
 #include <cstdlib>
+#include <string>
 // From https://gist.github.com/charlierm/5691020
 
 using namespace std; 
@@ -54,8 +56,7 @@ void LinkedList::print(){
 
 int main(int argc, char const *argv[])
 {
-	return 0; 
-	/*
+	string test = " ";
     LinkedList* list = new LinkedList();
     for (int i = 0; i < 100; ++i)
     {
@@ -63,7 +64,7 @@ int main(int argc, char const *argv[])
     }
     list->print();
     std::cout << "List Length: " << list->length << std::endl;
-    delete list;
+	delete list;
+	std::cin >> test; 
     return 0;
-	*/
 }
