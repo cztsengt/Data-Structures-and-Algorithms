@@ -16,19 +16,21 @@ int main()
 	//	cout << "inserted 1st time"<< endl;
 
 
-		// check insert front
+	// check insert front
+	/*
 	cout << linked.insert_front(12345) << endl;
 	cout << linked.insert_front(2) << endl;
 	cout << linked.insert_front(3) << endl;
 	cout << linked.insert_front(4) << endl;
 	cout << linked.insert_front(5) << endl;
 	cout << linked.insert_front(6) << endl;
-
-
 	cout << linked.size() << endl;
 	linked.print();
+	*/
 
-	//cout << "At 4: " << linked.select(4) << endl;
+	// Another Test
+	/*
+	cout << "At 4: " << linked.select(4) << endl;
 	cout << "At -1: " << linked.select(-1) << endl;
 	cout << "At 5: " << linked.select(5) << endl;
 	cout << "search for 123456: " << linked.search(123456) << endl;
@@ -39,12 +41,11 @@ int main()
 	linked.print();
 	linked.insert(9191, 4);
 	linked.print();
-	//
 	//	cout << linked_test.size() << endl;
-	//
 	//	cout << linked_test.empty() << endl;
+	*/
 
-		/*
+		
 		SequentialListTest seq_test;
 		DoublyLinkedListTest linked_test;
 
@@ -65,7 +66,6 @@ int main()
 		cout << "Test1: " << get_status_str(linked_test1_passed) << endl;
 		cout << "Test2: " << get_status_str(linked_test2_passed) << endl;
 		cout << "Test3: " << get_status_str(linked_test3_passed) << endl;
-		 */
-		 //system("pause");
+		system("pause");
 	return EXIT_SUCCESS;
 }

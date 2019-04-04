@@ -115,9 +115,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SequentialList.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="DoublyLinkedList.cpp" />
+    <ClCompile Include="SequentialList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DoublyLinkedList.hpp" />
