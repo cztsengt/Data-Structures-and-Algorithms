@@ -11,11 +11,13 @@ https://stackoverflow.com/questions/34975423/visual-studio-2015-git-error-openso
 
 Ignore Precompiled Headers: https://docs.microsoft.com/en-us/cpp/build/reference/y-ignore-precompiled-header-options?view=vs-2017
 
-Steps for Installing Visual studio:
+##Steps for Installing Visual studio:
 1) Install Visual Studio 2017 from microsoft
 2) Install Microsoft SDK
 3) Install Git (Git Bash)
 
-Setting up a repo:
+##Setting up a repo:
 1) CD or Git Bash into the folder where you want to set it up, prob Documents/Github
 2) Then close the repo: git clone https://github.com/cztsengt/Data-Structures-and-Algorithms.git
+
+Lab partner for many of these projecs was Vishvam.
