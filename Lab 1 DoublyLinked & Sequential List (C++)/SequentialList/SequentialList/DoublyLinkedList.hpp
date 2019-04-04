@@ -17,7 +17,7 @@ public:
 	// This type of list can basically grow as large as we want it to,
 	// so we'll just pick an arbitrary large value as the capacity for
 	// all lists of this type.
-	static const unsigned int CAPACITY = 5;
+	static const unsigned int CAPACITY = 6;
 
 private:
 	// The node structure used for the DoublyLinkedList.

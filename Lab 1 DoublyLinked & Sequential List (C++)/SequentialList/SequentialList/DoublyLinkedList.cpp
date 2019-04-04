@@ -122,7 +122,7 @@ bool DoublyLinkedList::remove_back()
 		return false;
 	if (size_ == 1)
 	{
-		delete tail_; // or delete head_, should be the same thing tbh.
+		delete tail_; 
 		head_ = NULL;
 		tail_ = NULL;
 	}
