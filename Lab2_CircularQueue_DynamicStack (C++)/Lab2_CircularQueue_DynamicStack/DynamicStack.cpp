@@ -20,7 +20,12 @@ DynamicStack::DynamicStack(unsigned int capacity_)
 	std::cout << "In the not default constructor" << std::endl; 
 	if (capacity_ == 0) {
 		std::cout << "Going to the default!" << std::endl;
+		// For some reason calling the default constructor doesn't work.
 		DynamicStack();
+		items_ = new StackItem[16];
+		(*this).capacity_ = 16;
+		size_ = 0;
+		init_capacity_ = 16;
 	}
 	else
 	{
