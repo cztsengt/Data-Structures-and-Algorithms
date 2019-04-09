@@ -1,5 +1,8 @@
 #include "DynamicStack.hpp"
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 typedef DynamicStack::StackItem StackItem;  // for simplicity
 const StackItem DynamicStack::EMPTY_STACK = -999;
@@ -12,16 +15,20 @@ DynamicStack::DynamicStack()
 	init_capacity_ = 16;
 }
 
-DynamicStack::DynamicStack(unsigned int capacity)
+DynamicStack::DynamicStack(unsigned int capacity_)
 {
-	if (capacity_ == 0)
+	std::cout << "In the not default constructor" << std::endl; 
+	if (capacity_ == 0) {
+		std::cout << "Going to the default!" << std::endl;
 		DynamicStack();
+	}
 	else
 	{
-		init_capacity_ = capacity;
-		(*this).capacity_ = capacity;
-		size_ = 0;
+		std::cout << "Creating a custom capacity" << std::endl;
 		items_ = new StackItem[capacity_];
+		(*this).capacity_ = capacity_;
+		size_ = 0;
+		init_capacity_ = capacity_;
 	}
 }
 

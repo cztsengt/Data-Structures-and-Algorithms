@@ -38,7 +38,7 @@ public:
 
 	bool test3()
 	{
-		DynamicStack stack(24);
+		DynamicStack stack(16);
 		stack.push(10);
 		stack.push(20);
 		ASSERT_TRUE(stack.peek() == 20)
